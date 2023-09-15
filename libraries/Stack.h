@@ -1,11 +1,30 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/*******************
+ * Structs Implementation
+ *******************/
+
 struct Stack {
     int top;     /* position of the top element */
     int capacity; /* capacity of the stack */
     float *elements; /* pointer to the array for stack elements */
 };
+
+/*******************
+ * Function Signatures
+ *******************/
+
+void create_stack(struct Stack *s, int capacity);
+int is_empty(struct Stack *s);
+int is_full(struct Stack *s);
+void push(struct Stack *s, float value);
+float pop(struct Stack *s);
+float peek(struct Stack *s);
+
+/*******************
+ * Function Implementations
+*******************/
 
 void create_stack(struct Stack *s, int capacity) {
     s->top = -1; /* initialize top to -1 (empty stack) */

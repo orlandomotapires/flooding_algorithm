@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/*******************
+ * Structs Implementation
+ *******************/
+
 typedef struct Queue {
     int capacity;
     float *data;

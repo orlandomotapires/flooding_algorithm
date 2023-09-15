@@ -4,6 +4,10 @@
 
 #define num_vertices 4
 
+/*******************
+ * Global variables
+ *******************/
+
 int adjacency_matrix_a[50][50];
 int visited_vertices[500];
 Graph *graph_a;

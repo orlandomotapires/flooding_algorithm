@@ -11,7 +11,6 @@
 int adjacency_matrix_a[50][50];
 int visited_vertices[500];
 Graph *graph_a;
-int vez = 0;
 
 /*******************
  * Function Signatures
@@ -126,7 +125,6 @@ int number_of_connected_components(int choice){
         for(int i='A'; i<'A'+4; i++){
             if(visited_vertices[i] != 1){
                 flood_with_DFS(i);
-                vez++;
                 num_isles_dfs++;           
             }
         }

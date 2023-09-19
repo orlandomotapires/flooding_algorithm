@@ -1,4 +1,6 @@
-// Author: Orlando Mota Pires https://github.com/orlandomotapires
+/*
+    Authors: Orlando Mota Pires https://github.com/orlandomotapires
+*/
 
 #include "./libraries/Flooding.h"
 
